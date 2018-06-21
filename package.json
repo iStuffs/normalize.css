@@ -1,12 +1,12 @@
 {
-  "name": "normalize.css",
+  "name": "sassy-normalize",
   "version": "8.0.0",
-  "description": "A modern alternative to CSS resets",
-  "main": "normalize.css",
-  "style": "normalize.css",
+  "description": "A convenient way to import Necolas's normalize.css",
+  "main": "normalize.scss",
+  "style": "normalize.scss",
   "files": [
     "LICENSE.md",
-    "normalize.css"
+    "normalize.scss"
   ],
   "devDependencies": {
     "stylelint": "^7.9.0",
@@ -15,9 +15,14 @@
   "scripts": {
     "test": "stylelint normalize.css"
   },
-  "repository": "necolas/normalize.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iStuffs/sassy-normalize.git"
+  },
   "license": "MIT",
-  "bugs": "https://github.com/necolas/normalize.css/issues",
+  "bugs": {
+    "url": "https://github.com/iStuffs/sassy-normalize/issues"
+  },
   "homepage": "https://necolas.github.io/normalize.css",
   "stylelint": {
     "extends": "stylelint-config-standard",
@@ -31,5 +36,6 @@
         }
       ]
     }
-  }
+  },
+  "author": "iStuffs - Samuel DIDIER-LAURENT"
 }
