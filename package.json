@@ -9,10 +9,13 @@
     "normalize.scss"
   ],
   "devDependencies": {
-    "stylelint": "^7.9.0",
-    "stylelint-config-standard": "^16.0.0"
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "stylelint": "^9.6.0",
+    "stylelint-config-standard": "^18.2.0"
   },
   "scripts": {
+    "build": "gulp",
     "test": "stylelint normalize.css"
   },
   "repository": {
@@ -37,5 +40,8 @@
       ]
     }
   },
-  "author": "iStuffs - Samuel DIDIER-LAURENT"
+  "author": "iStuffs - Samuel DIDIER-LAURENT",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
 }
