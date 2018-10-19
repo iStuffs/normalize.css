@@ -6,7 +6,8 @@
   "style": "normalize.scss",
   "files": [
     "LICENSE.md",
-    "normalize.scss"
+    "normalize.scss",
+    "eyeglass-exports.js"
   ],
   "devDependencies": {
     "gulp": "^4.0.0",
@@ -43,5 +44,14 @@
   "author": "iStuffs - Samuel DIDIER-LAURENT",
   "dependencies": {
     "normalize.css": "^8.0.0"
+  },
+  "keywords": [
+    "eyeglass-module",
+    "sass"
+  ],
+  "eyeglass": {
+    "name": "normalize",
+    "exports": "eyeglass-exports.js",
+    "needs": "^1.6.0"
   }
 }
