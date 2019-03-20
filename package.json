@@ -12,7 +12,7 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
-    "stylelint": "^9.6.0",
+    "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0"
   },
   "scripts": {
@@ -43,7 +43,7 @@
   },
   "author": "iStuffs - Samuel DIDIER-LAURENT",
   "dependencies": {
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.1"
   },
   "keywords": [
     "eyeglass-module",
