@@ -1,6 +1,6 @@
 {
   "name": "sassy-normalize",
-  "version": "8.0.4",
+  "version": "8.0.5",
   "description": "A convenient way to import Necolas's normalize.css",
   "main": "index.js",
   "style": "normalize.scss",
